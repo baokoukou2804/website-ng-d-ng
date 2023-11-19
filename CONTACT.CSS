@@ -1,0 +1,116 @@
+/* Thiết lập phông chữ và màu nền chung */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    font-size: 36px;
+}
+
+/* Định dạng main content */
+main {
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Định dạng biểu mẫu liên hệ */
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Định dạng các trường nhập và nút Gửi trong biểu mẫu */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+/* Hiệu ứng hover cho nút Gửi */
+button:hover {
+    background-color: #555;
+}
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f7f7f7;
+                            margin: 0;
+                            padding: 0;
+                        }
+                
+                        h1 {
+                            font-size: 24px;
+                            text-align: center;
+                            padding: 20px;
+                        }
+                
+                        .contacts-container {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                            flex-wrap: wrap;
+                        }
+                
+                        .contact {
+                            width: 300px;
+                            background-color: #fff;
+                            padding: 20px;
+                            margin: 10px;
+                            border-radius: 5px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                            transition: transform 0.2s, box-shadow 0.2s;
+                        }
+                
+                        .contact h2 {
+                            font-size: 20px;
+                        }
+                
+                        .contact p {
+                            font-size: 16px;
+                        }
+                
+                        .contact:hover {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+                        }
+
+                        #nav {
+                            font-size: 30px;
+                            cursor: pointer;
+                        }
